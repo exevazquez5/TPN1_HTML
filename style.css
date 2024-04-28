@@ -1,0 +1,48 @@
+header {
+    background: linear-gradient(135deg, #3498db, #2c3e50); /* Degradado de azul a negro */
+    color: white;
+    padding: 20px;
+}
+
+body {
+    background: linear-gradient(to bottom, #f0f0f0, #808080); /* Degradado de grises */
+    font-family: Arial, sans-serif; /* Fuente de texto */
+    margin: 0; /* Elimina márgenes predeterminados */
+    padding: 0; /* Elimina relleno predeterminado */
+}
+
+header nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 2em;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+header li:hover {
+background-color:rgba(216, 215, 215, 0.2);
+transition: 0.5s;
+}
+header a {
+    text-decoration:none;
+}
+main{
+    margin-left: 2em;
+}
+#img1 {
+    display: block;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+hr { 
+    border: 1px solid rgb(122, 106, 11);
+    width: 30%;
+}
+
+footer {
+    background: linear-gradient(to bottom, #3498db, #2c3e50); /* Degradado de azul a negro */
+    color: white;
+    padding: 20px;
+    text-align: center; /* Centra el texto en el footer */
+}
+
