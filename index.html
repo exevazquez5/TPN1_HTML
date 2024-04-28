@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Piezas de Auto</title>
+    <style>
+        /* Estilos CSS pueden ser añadidos aquí */
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Venta de Autopartes</h1>
+        <nav>
+            <ul>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#nosotros">Sobre Nosotros</a></li>
+                <li><a href="#mapa">Ubicación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Catálogo -->
+        <section id="catalogo">
+            <h2>Catálogo de Piezas de Auto</h2>
+            <!-- Aquí podrías incluir imágenes y descripciones de las piezas disponibles -->
+        </section>
+
+        <!-- Sobre Nosotros -->
+        <section id="nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una tienda especializada en la venta de piezas de auto. Nuestro equipo está comprometido en ofrecerte las mejores soluciones para tus necesidades automotrices.</p>
+        </section>
+
+        <!-- Mapa -->
+        <section id="mapa">
+            <h2>Ubicación</h2>
+            <!-- Aquí podrías incluir un mapa de Google Maps u otro servicio similar -->
+        </section>
+
+        <!-- Formulario de Contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="enviar.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Venta de Piezas de Auto</p>
+    </footer>
+</body>
+</html>
