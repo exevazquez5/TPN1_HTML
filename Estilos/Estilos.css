@@ -1,0 +1,37 @@
+*{
+    margin: 10px 5px 30px 20px; /* sentido horario */
+    padding: 5px;
+
+}
+
+header{
+    border: 3px solid red;
+    background-color: blue;
+    color: yellowgreen;
+    
+}
+
+main{
+    border: 10px solid lightblue;
+    background-color: gold;
+    color:black
+}
+
+footer{
+    border: 20px solid brown;
+    background-color: aqua;
+    color: black
+}
+
+#final{
+    text-align: center;
+
+
+}
+    
+
+.footer{
+    text-align: justify;
+   
+
+}

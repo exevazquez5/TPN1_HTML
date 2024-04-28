@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body{
+            background-color: cadetblue;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: black;
+        }
+
+        #titulo{
+            text-align: center;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <form action="show_data.html" target="_blank"></form>
+    <h2 id="titulo"> Formulario para ser fan de la Lucha libre/Wrestling </h2>
+    <form action="/guardar_foto_perfil" method="post" enctype="multipart/form-data"></form>
+        <label for="foto_perfil">Selecciona tu foto de perfil</label>
+        <input type="file" id="foto_perfil" name="foto_perfil" accept="image/*" required> <br><br>
+       
+    
+    <h3 > Datos personales (rellenarlos porque son necesarios) </h3> <br>   
+    <label for="Nombre">Nombre</label> <input size="30" type="text" name="Nombre" placeholder="Ingrese su nombre" required> <br><br>
+    <label for="Apellido">Apellido</label> <input size="30" type="text" name="Apellido" placeholder="Ingrese su apellido" required> <br><br>
+    <label for="Telefono">Telefono</label> <input type="tel" name="Telefono" placeholder="Ingrese su telefono/celular" required> <br><br>
+    <label for="Email">Email</label> <input type="email" name="email" placeholder="Ingrese su email" required> <br><br>
+    <label for="Nacimineto">Fecha de nacimiento(dd/mm/yyyy)</label> <input type="date" name="Nacimineto" required> <br><br>
+    <label for="Pais">Pais</label> <input type="text" name="Pais" placeholder="Ingrese el pais donde vive" required> <br><br>
+
+    <h3>Genero</h3>
+    <input type="radio" name="Genero" value="Hombre" checked> Hombre
+    <input type="radio" name="Genero" value="Mujer"> Mujer
+    <input type="radio" name="Genero" value="Alienigena"> Alien
+    <input type="radio" name="Genero" value="Depredador"> Depredador
+
+    <h3>Sobre Wrestling</h3>
+    <h4>Seleccione que empresas de Lucha libre/Wrestling mira o miraba</h4> 
+    <input type="checkbox" name="Empresa" value="WWE"> WWE <br>
+    <input type="checkbox" name="Empresa" value="AEW"> AEW <br>
+    <input type="checkbox" name="Empresa" value="AAA"> AAA <br>
+    <input type="checkbox" name="Empresa" value="NJPW"> NJPW <br>
+    <input type="checkbox" name="Empresa" value="CZW"> CZW <br>
+    <input type="checkbox" name="Empresa" value="100% Lucha"> 100% Lucha <br>
+    <input type="checkbox" name="Empresa" value="TNA"> TNA <br>
+    <input type="checkbox" name="Empresa" value="Otras"> Otras <br><br>
+
+    <h4>Seleccione donde mira los combates</h4>
+    <input type="checkbox" name="Lugar" value="TV"> TV <br>
+    <input type="checkbox" name="Lugar" value="PC"> PC <br>
+    <input type="checkbox" name="Celular" value="Celular"> Celular <br>
+    <input type="checkbox" name="Tablet" value="Tablet"> Tablet <br>
+    <input type="checkbox" name="Stream" value="Stream"> Stream <br>
+    <input type="checkbox" name="En vivo" value="En vivo"> En vivo <br><br>
+
+
+    <label for="Nombre del luchador">Nombre del luchador</label> <input type="text" name="Nombre" placeholder="Ingrese nombre de luchador/es favoritos"> <br><br>
+    <lbael for="Tema de entrada favorita">Tema de entrada favorita</lbael> <input type="text" name="Nombre" placeholder="Puede ingresar el nombre del luchador o el titulo del tema"> <br><br>
+    <h3>Describe un momento o evento que te haya resultado asombroso (Mejor si pones el nombre de la empresa de wrestlig)</h3>
+    <textarea name="Momento o evento" id="Momento o evento" cols="50" rows="25"></textarea> <br>
+
+    <button type="submit"> Guardar</button>
+    <button type="reset"> Reiniciar</button>
+
+</body>
+</html>
